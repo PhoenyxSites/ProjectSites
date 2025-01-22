@@ -1,33 +1,50 @@
 body{
-  font-family: Arial;
+  /*background-image: url('images/c9bbb64405474daf7902e0735c02894c-d9tkxf6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-header{
+.wrapper{
   background: black;
   color: white;
-  padding: 15px 15px 0 15px;
+  width: 100%;
+  padding: 0 15px 0 15px;
 }
 
-header h1{
+.wrapper h1{
+  width: 100%;
   margin: auto;
+  margin-left: 5%;
   display: inline;
 }
 
-header ul{
-  margin-left: 1080px;
-  margin-left: 1440px;
+/*p{
+  text-align: justify;
+}*/
+
+.wrapper nav{
+  width: 100%;
+}
+
+.wrapper nav ul{
+  list-style-type: none;
+  margin-left: 50%;
   padding: 0 0 0 15px;
-  display: inline;
+  display: inline-flex;
 }
 
-nav ul li{
+.wrapper nav ul li{
   color: white;
   display: inline-block;
-  list-style-type: none;
   padding: 15px 15px;
 }
 
-nav ul li a{
+.wrapper nav ul li a{
+  display: block;
   color: white;
+  text-decoration: none;
 }
