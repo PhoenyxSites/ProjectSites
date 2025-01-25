@@ -11,7 +11,6 @@ body{
 .wrapper{
   background: black;
   color: white;
-  width: 100%;
   padding: 0 15px 0 15px;
 }
 
@@ -24,10 +23,6 @@ body{
 /*p{
   text-align: justify;
 }*/
-
-.wrapper nav{
-  width: 100%;
-}
 
 .wrapper nav ul{
   list-style-type: none;
