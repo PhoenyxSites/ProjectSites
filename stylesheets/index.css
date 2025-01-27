@@ -1,0 +1,9 @@
+main{
+  width: 100%;
+  height: 65vh;
+  margin-top: 60px;
+  background-image: url('../images/placeholderhero.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
