@@ -6,4 +6,84 @@ main{
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-intro{
+  padding-bottom: 8vh;
+}
+
+.main-intro h1{
+  font-size: 96px;
+  line-height: 106px;
+  color: #00aeff
+}
+
+.about{
+  width: 100%;
+  padding: 60px 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.void-header{
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fff;
+  align-self: center;
+  text-align: center;
+}
+
+.void-header h2{
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+}
+
+.void{
+  width: 100%;
+  padding-bottom: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.void-text{
+  flex-basis: 800px;
+}
+
+.void-text p{
+  padding: 20px 0;
+  text-align: center;
+}
+
+.void-text-p0{
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.void p{
+  color: #000;
+}
+
+.about-img{
+  width: 300px
+}
+
+.about-render{
+  width: 866.67px;
+}
+
+.about-text{
+  flex-basis: 555px;
+}
+
+.about-text p{
+  padding: 20px 0;
 }
